@@ -10,15 +10,7 @@
 
 - Grade_Name_Title.md, Grade_Name_Title.pdf
 
-  - ex) 3_배대식_CRC Bypass.pdf
-
-- Team1(월)
-	양경모
-	이승혁
-	정재훈
-	김두형
-	김성준
-	서동훈
+  - ex) 4_배대식_CRC Bypass.pdf
  
 ### :pushpin: Team1(Mon)
 - 3_양경모
