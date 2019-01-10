@@ -10,7 +10,7 @@
 
 - Grade_Name_Title.md, Grade_Name_Title.pdf
 
-  - ex) 4_배대식_CRC Bypass.pdf
+  - ex) 3_정재훈_abcde.pdf
  
 ### :pushpin: Team1(Mon)
 - 3_양경모
@@ -20,7 +20,6 @@
 - 2_서동훈
 
 ### :pushpin: Team2(Thu)
-- 4_배대식
 - 4_조예림
 - 3_박지윤
 - 2_김상민
