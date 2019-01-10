@@ -48,11 +48,10 @@
 >
 > 3장에서의 도전!은 이미지 뷰어를 만드는 것이다.
 >
-> ![3장_도전](/Users/yanggaeng/Downloads/3장_도전.jpeg)
+> ![3 _](https://user-images.githubusercontent.com/40850499/50952325-712e9f00-14f3-11e9-802a-4dc7f6eb57ca.jpeg)
 >
 > 이러한 문제이다. 이미지 뷰어를 만들기 위해서는 이전, 다음으로 가는 버튼과 이미지가 보여지는 이미지뷰 사용해야한다.
 >
-> !image-20190105175942508](/Users/yanggaeng/Library/Application Support/typora-user-images/image-20190105175942508.png)
 
 ***
 
@@ -60,7 +59,8 @@
 
 > 우선 출력할 이미지를 프로젝트 폴더에 넣어준다.
 >
-> ![image-20190105180932858](/Users/yanggaeng/Library/Application Support/typora-user-images/image-20190105180932858.png)
+> <img width="272" alt="list" src="https://user-images.githubusercontent.com/40850499/50952356-8b687d00-14f3-11e9-8d0d-2d346eab479e.png">
+
 >
 > 파일을 프로젝트에 끌어서 넣으면 설정 창이 나오는데 그 부분에서 Destination : Copy items if needed를 체크해준다. 
 > 이 설정은 이미지를 추가했을 때 이미지를 프로젝터 폴더로 복사할지 말지 선택하는 옵션이다.
@@ -69,7 +69,7 @@
 >
 > 여기서 Image View는 이미지를 출력해주는 객체이며 Button은 모두가 아는 그 버튼이다! 
 >
-> ![image-20190105180712014](/Users/yanggaeng/Library/Application Support/typora-user-images/image-20190105180712014.png)
+> <img width="531" alt="storyboard" src="https://user-images.githubusercontent.com/40850499/50952363-8e636d80-14f3-11e9-8d33-fd62429e432c.png">
 >
 > 우선 완성된 코드를 보여주고 설명하겠다.
 >
