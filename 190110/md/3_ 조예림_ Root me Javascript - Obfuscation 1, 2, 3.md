@@ -8,13 +8,14 @@
 
 문제를 풀어 봅시다. 시이이작!
 
-![1-1](C:\Users\Yellme\Desktop\1-1.PNG)
+![1-1](https://user-images.githubusercontent.com/40850499/51096786-8f054800-1802-11e9-944d-3ba9281b347a.PNG)
 
 문제를 들어가는 순간 위에 있는 그림과 같이 패스워드를 쓸 수 있는 창이 뜬다.
 
 일단 사이트에는 알 수 있는게 하나도 없으니 바로 이 사이트의 소스를 보러 가야겠죠?
 
-![1-2](C:\Users\Yellme\Desktop\1-2.PNG)
+![1-2](https://user-images.githubusercontent.com/40850499/51096793-9c223700-1802-11e9-855c-36a9d35b5153.PNG)
+
 
 해당 페이지 소스를 자세히 보면 이 두 부분이 중요하다는 것을 알 수 있다.
 
@@ -39,11 +40,12 @@ if(h == unescape(pass)) {
 
 pass의 값이 인코딩이 되어있으니 url decode을 해보면,
 
-![1-3](C:\Users\Yellme\Desktop\1-3.PNG)
+![1-3](https://user-images.githubusercontent.com/40850499/51096797-a80df900-1802-11e9-9711-265eac35fcdf.PNG)
+
 
 이렇게 패스워드 값이 나온다. 
 
-![1-5](C:\Users\Yellme\Desktop\1-5.PNG)
+![1-5](https://user-images.githubusercontent.com/40850499/51096837-e86d7700-1802-11e9-8b08-efb5e6e9476d.PNG)
 
 너무나 간단하게 성공 ^_____________________________________________^
 
@@ -61,7 +63,7 @@ Obfuscation 2 문제를 들어가게 되면 그냥 흰 화면만 나온다.
 
 그래서 바로 해당 페이지 소스를 보면,
 
-![2-1](C:\Users\Yellme\Desktop\2-1.PNG)
+![2-1](https://user-images.githubusercontent.com/40850499/51096838-f4593900-1802-11e9-90cf-3383d5405567.PNG)
 
 ```c#
 var pass = unescape("unescape%28%22String.fromCharCode%2528104%252C68%252C117%252C102%252C106%252C100%252C107%252C105%252C49%252C53%252C54%2529%22%29");
@@ -73,8 +75,7 @@ Obfuscation 1번과 비슷하게 url encoding 이 되어있는 것을 볼 수 �
 
 콘솔 창을 이용해서 디코드를 해주게 되면 다음과 같이 나온다.
 
-![2-2](C:\Users\Yellme\Desktop\2-2.PNG)
-
+![2-2](https://user-images.githubusercontent.com/40850499/51096841-fd4a0a80-1802-11e9-9657-257448438a07.PNG)
 ```
 "unescape("String.fromCharCode%28104%2C68%2C117%2C102%2C106%2C100%2C107%2C105%2C49%2C53%2C54%29")"
 ```
@@ -83,18 +84,18 @@ Obfuscation 1번과 비슷하게 url encoding 이 되어있는 것을 볼 수 �
 
 한번 더 해주게 되면,
 
-![2-3](C:\Users\Yellme\Desktop\2-3.PNG)
+![2-3](https://user-images.githubusercontent.com/40850499/51096846-04711880-1803-11e9-8202-d4ec576a1342.PNG)
+
 
 왠지 답일 것 같은 게 나온다. 처음엔 이게 답이겠거니 하고 신나서 바로 확인을 해봤는데 아니라고 떴다.
 
 혹시 몰라서 한번 더 콘솔 창을 이용해 확인을 해봤더니,
 
-![2-4](C:\Users\Yellme\Desktop\2-4.PNG)
+![2-4](https://user-images.githubusercontent.com/40850499/51096850-0c30bd00-1803-11e9-9112-3972d101c389.PNG)
 
 짜란 !!! 이번엔 진짜 답이 나왔다.
 
-![2-5](C:\Users\Yellme\Desktop\2-5.PNG)
-
+![2-5](https://user-images.githubusercontent.com/40850499/51096859-1652bb80-1803-11e9-85dd-67539af4bdcd.PNG
 이렇게 Obfuscation 2 해결!
 
 
@@ -106,14 +107,14 @@ Obfuscation 1번과 비슷하게 url encoding 이 되어있는 것을 볼 수 �
 ## 3.  Javascript - Obfuscation 3
 
 문제를 보면
-
-![3-1](C:\Users\Yellme\Desktop\3-1.PNG)
+![3-1](https://user-images.githubusercontent.com/40850499/51096862-1eaaf680-1803-11e9-9b85-5fd82489369e.PNG)
 
 바로 패스워드 값을 제출하는 창이 뜬다.
 
 그럼 해당 페이지의 소스를 보자요..
 
-![3-2](C:\Users\Yellme\Desktop\3-2.PNG)
+![3-2](https://user-images.githubusercontent.com/40850499/51096865-24a0d780-1803-11e9-8b70-06bd58a31f32.PNG)
+
 
 ```c
  var pass = "70,65,85,88,32,80,65,83,83,87,79,82,68,32,72,65,72,65";
@@ -162,9 +163,10 @@ String.fromCharCode(55,56,54,79,115,69,114,116,107,49,50); 이 된다.
 
 콘솔 창을 이용해 확인을 해보면
 
-![3-3](C:\Users\Yellme\Desktop\3-3.PNG)
+![3-3](https://user-images.githubusercontent.com/40850499/51096868-2d91a900-1803-11e9-85c6-6949c95cb8c9.PNG)
 
-짜란 답이 나왔다.![3-4](C:\Users\Yellme\Desktop\3-4.PNG)
+짜란 답이 나왔다.!
+![3-4](https://user-images.githubusercontent.com/40850499/51096875-35514d80-1803-11e9-8671-0a869fa7cc7d.PNG)
 
 
 
