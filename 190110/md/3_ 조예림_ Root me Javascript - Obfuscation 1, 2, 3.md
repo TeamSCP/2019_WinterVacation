@@ -95,7 +95,9 @@ Obfuscation 1번과 비슷하게 url encoding 이 되어있는 것을 볼 수 �
 
 짜란 !!! 이번엔 진짜 답이 나왔다.
 
-![2-5](https://user-images.githubusercontent.com/40850499/51096859-1652bb80-1803-11e9-85dd-67539af4bdcd.PNG
+![2-5](https://user-images.githubusercontent.com/40850499/51096903-5e71de00-1803-11e9-86a1-74d4e29584ea.PNG)
+
+
 이렇게 Obfuscation 2 해결!
 
 
