@@ -34,9 +34,9 @@ Application Programming Interface 줄여서 API라고 부르게 되죠?<br>
 ## Process
 
 NTOSKRNL.exe (커널) 
-=> 시스템 프로세스
-SMSS.exe
-CSRSS.exe
+=> 시스템 프로세스<br>
+SMSS.exe<br>
+CSRSS.exe<br>
 => 서비스 프로세스
 
 => 유저 프로세스
