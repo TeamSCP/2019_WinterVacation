@@ -7,8 +7,6 @@
 
 ## Windows Kernel Tutorial
 
-- Subject Name
-
 해킹에 대해서 이야기 할 때 커널에 관한 이야기가 엄청 많이 나옵니다.<br>
 흥미 있는 주제들에 대해서만 이야기 해보자면..<br>
 게임 매크로를 만들려면 SSDT 후킹을 할 줄 알아야 한다.<br>
