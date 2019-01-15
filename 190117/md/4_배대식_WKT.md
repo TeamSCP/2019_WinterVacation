@@ -17,7 +17,7 @@
 이것 외에도 커널 하면 뭔가 멋져보여서 혹은 넘을 수 없을 것만 같은 산이라고 생각하고 있었습니다.<br>
 여러 군데에서 잡지식이 쌓이면서 만든 커널 튜토리얼 입니다.<br>
 
-\- API<br>
+## API
 Application Programming Interface 줄여서 API라고 부르게 되죠?<br>
 어플리케이션을 프로그래밍을 하기 위한 인터페이스입니다.<br>
 프로그래머가 자주 하는 작업 혹은 어려운 작업들을 단순히 인자 몇 개와 플래그 셋팅으로 결과를 얻어 올 수 있는 효율적인 수단인 것이죠.<br>
@@ -28,10 +28,10 @@ Application Programming Interface 줄여서 API라고 부르게 되죠?<br>
 
 그렇다면 API의 동작 방식을 아는 것이 왜 커널을 이해 하는데 도움이 되는 것일까요?<br>
 
-- DLL
+## DLL
 
 
-- Process
+## Process
 
 NTOSKRNL.exe (커널) 
 => 시스템 프로세스
@@ -41,11 +41,11 @@ CSRSS.exe
 
 => 유저 프로세스
 
-- Map of User and Kernel
+## Map of User and Kernel
   - 익스큐티브
   - 커널
   - OBJECT
 
-- 결론<br>
+## 결론
 여기까지 하이레벨에서 로우레벨 까지의 과정을 간략하게나마 살펴 보았습니다.<br>
 다음은 드라이버를 만드는 방법과 게임에서 어떻게 우회되어 사용되는지에 대해 이야기 해보도록 하겠습니다.<br>
