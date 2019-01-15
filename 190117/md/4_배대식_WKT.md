@@ -44,7 +44,7 @@ CSRSS.exe<br>
 ## Map of User and Kernel
   - 익스큐티브
   - 커널
-  - OBJECT
+  - 
 
 ## 결론
 여기까지 하이레벨에서 로우레벨 까지의 과정을 간략하게나마 살펴 보았습니다.<br>
