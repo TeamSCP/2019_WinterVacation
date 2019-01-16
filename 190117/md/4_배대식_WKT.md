@@ -21,7 +21,8 @@
 ## DLL
 Dynamic Linked Library, 동적으로 연결되는 라이브러리라는 의미입니다.<br>
 프로그램이 메모리에 올라오는 시점에 라이브러리의 참조가 이루어 지므로 유지보수를 따로 할 수 있다는 점이 있습니다.<br>
-윈도우에서 기본적으로 제공하는 여러 API들 또한 DLL로 이루어진 경우가 많으며 DLL의 EAT를 참조하여, PE 로더가 IAT를 채워주는 방식으로 구성되어 있습니다.<br>
+윈도우에서 기본적으로 제공하는 여러 API들 또한 DLL로 이루어진 경우가 많으며 DLL의 EAT를 참조하여, 
+PE 로더가 IAT를 채워주는 방식으로 구성되어 있습니다.<br>
 <IAT/EAT 이미지><br>
 프로그래머는 DLL에 정의된 함수를 사용 할 때 문서를 참조하여 인자만 채워주면 그 함수를 사용 할 수 있게 됩니다.<br> 
 
@@ -51,7 +52,6 @@ Application Programming Interface 줄여서 API라고 불리웁니다.<br>
   - 익스큐티브<br>
     Ex 계열 함수,
     오브젝트를 어떻게 다룰 것 인지에 대한 정책
-    
   - 커널<br>
     Ke 계열 함수,
     오브젝트만 제공
@@ -59,14 +59,17 @@ Application Programming Interface 줄여서 API라고 불리웁니다.<br>
 ## Process
 
 => 커널(PID 0)<br>
+  NTOSKRNL.exe
 => 시스템 프로세스<br>
+  SMSS, CSRSS, LSASS
 => 서비스 프로세스<br>
+  svchosts
 => 유저 프로세스<br>
 
 ## What's mean Native?
 
-Native Library는 다른 라이브러리들과 연관성이 없음
-Zw 계열 함수
+Native Library는 다른 라이브러리들과 연관성이 없음.
+
 
 
 ## 결론
