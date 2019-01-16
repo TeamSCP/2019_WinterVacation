@@ -48,17 +48,25 @@ Application Programming Interface 줄여서 API라고 불리웁니다.<br>
 ## Map of User and Kernel
 
 <OS Internal Kernel Map Image>
-  - 익스큐티브
-    익스큐티브는 커널영역에 존재하며 
-  - 커널
+  - 익스큐티브<br>
+    Ex 계열 함수,
+    오브젝트를 어떻게 다룰 것 인지에 대한 정책
+    
+  - 커널<br>
+    Ke 계열 함수,
+    오브젝트만 제공
   
-
 ## Process
 
 => 커널(PID 0)<br>
 => 시스템 프로세스<br>
 => 서비스 프로세스<br>
 => 유저 프로세스<br>
+
+## What's mean Native?
+
+Native Library는 다른 라이브러리들과 연관성이 없음
+Zw 계열 함수
 
 
 ## 결론
