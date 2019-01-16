@@ -52,9 +52,10 @@ Application Programming Interface 줄여서 API라고 불리웁니다.<br>
   - 익스큐티브<br>
     Ex 계열 함수,
     오브젝트를 어떻게 다룰 것 인지에 대한 정책
+    익스큐티브 오브젝트
   - 커널<br>
     Ke 계열 함수,
-    오브젝트만 제공
+    커널 오브젝트
   
 ## Process
 
