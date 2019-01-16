@@ -1,6 +1,7 @@
 ## All Contents
 
 → Windows Kernel Tutorial<br>
+__ All About DLL<br>
 ＿ All About Driver<br>
 ＿ CE Dematerializer<br>
 ＿ Broken DEMACIA<br>
@@ -20,10 +21,8 @@
 ## DLL
 Dynamic Linked Library, 동적으로 연결되는 라이브러리라는 의미입니다.<br>
 프로그램이 메모리에 올라오는 시점에 라이브러리의 참조가 이루어 지므로 유지보수를 따로 할 수 있다는 점이 있습니다.<br>
-윈도우에서 기본적으로 제공하는 여러 API들 또한 DLL로 이루어진 경우가 많으며 
-
-## SYS
-
+윈도우에서 기본적으로 제공하는 여러 API들 또한 DLL로 이루어진 경우가 많으며 DLL의 EAT를 참조하여, PE 로더가 IAT를 채워주는 방식으로 구성되어 있습니다.<br>
+프로그래머는 이러한 API를 사용 하는데 있어서 문서를 참조하여 인자만 채워주면 그 기능을 사용 할 수 있게 됩니다.<br> 
 
 ## API
 Application Programming Interface 줄여서 API라고 불리웁니다.<br>
@@ -33,12 +32,15 @@ Application Programming Interface 줄여서 API라고 불리웁니다.<br>
 <MSDN에 정의되어 있는 스펙 이미지><br>
 <네이버에 정의되어 있는 스펙 이미지><br>
 
+## SYS
+
+
 그렇다면 API의 동작 방식을 아는 것이 왜 커널을 이해 하는데 도움이 되는 것일까요?<br>
 
 ## Map of User and Kernel
+<OS Internal Kernel Map>
   - 익스큐티브
   - 커널
-  - 
 
 ## Process
 
