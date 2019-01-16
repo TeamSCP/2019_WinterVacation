@@ -46,17 +46,19 @@ Application Programming Interface 줄여서 API라고 불리웁니다.<br>
 유저모드 프로그램에서는 이미 로드되어있는 드라이버나 로드 할 수 있는 드라이버와 DeviceIoControl 함수로 코드를 주고받아 실 행동은 드라이버가 취하는 방식으로 동작 하는 것 입니다.<br>
 
 ## Map of User and Kernel
-<OS Internal Kernel Map>
+
+<OS Internal Kernel Map Image>
   - 익스큐티브
+    익스큐티브는 커널영역에 존재하며 
   - 커널
+  
 
 ## Process
 
-=> 커널
+=> 커널(PID 0)
 => 시스템 프로세스<br>
 => 서비스 프로세스<br>
 => 유저 프로세스<br>
-
 
 
 ## 결론
