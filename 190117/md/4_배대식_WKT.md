@@ -55,7 +55,7 @@ Application Programming Interface 줄여서 API라고 불리웁니다.<br>
 
 ## Process
 
-=> 커널(PID 0)
+=> 커널(PID 0)<br>
 => 시스템 프로세스<br>
 => 서비스 프로세스<br>
 => 유저 프로세스<br>
