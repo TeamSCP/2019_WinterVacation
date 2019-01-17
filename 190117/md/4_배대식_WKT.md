@@ -49,6 +49,7 @@ Application Programming Interface 줄여서 API라고 불리웁니다.<br>
 ## Map of User and Kernel
 
 <OS Internal Kernel Map Image>
+  
   - 익스큐티브<br>
     Ex 계열 함수,
     오브젝트를 어떻게 다룰 것 인지에 대한 정책
@@ -59,7 +60,7 @@ Application Programming Interface 줄여서 API라고 불리웁니다.<br>
   
 ## Process
 
-=> 커널(PID 0)<br>
+=> 익스큐티브와 커널(PID 0)<br>
   NTOSKRNL.exe
 => 시스템 프로세스<br>
   SMSS, CSRSS, LSASS
