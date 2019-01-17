@@ -53,11 +53,11 @@ Application Programming Interface 줄여서 API라고 불리웁니다.<br>
 \- 익스큐티브<br>
 ExXXXX 함수<br>
 메모리 관리, 프로세스 및 스레드 관리, I/O, IPC<br>
+프로세스, 디렉토리, 드라이버와 같은 타입들이 실제로 메모리상에 올라온, 인스턴스화 된 상태를 익스큐티브 오브젝트라 함.
 
 \- 커널<br>
 KeXXXX 함수<br>
 스레드 스케줄링, 인터럽트 및 예외 디스패칭, 멀티 프로세스 동기화 같은 저수준 코드로 이루어져 있음<br>
-
 
 ## What's mean Native?
 
