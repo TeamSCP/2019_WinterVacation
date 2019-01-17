@@ -48,31 +48,21 @@ Application Programming Interface 줄여서 API라고 불리웁니다.<br>
 
 ## Map of User and Kernel
 
-<OS Internal Kernel Map Image>
+<OS Internal Kernel Map Image><br>
   
-  - 익스큐티브<br>
-    Ex 계열 함수,
-    오브젝트를 어떻게 다룰 것 인지에 대한 정책
-    익스큐티브 오브젝트
-  - 커널<br>
-    Ke 계열 함수,
-    커널 오브젝트
+\- 익스큐티브<br>
+ExXXXX 함수<br>
+메모리 관리, 프로세스 및 스레드 관리, I/O, IPC<br>
+\- 커널<br>
+KeXXXX 함수<br>
+스레드 스케줄링, 인터럽트 및 예외 디스패칭, 멀티 프로세스 동기화 저수준 OS
   
-## Process
-
-=> 익스큐티브와 커널(PID 0)<br>
-  NTOSKRNL.exe
-=> 시스템 프로세스<br>
-  SMSS, CSRSS, LSASS
-=> 서비스 프로세스<br>
-  svchosts
-=> 유저 프로세스<br>
 
 ## What's mean Native?
 
+<NTDLL.dll Import table 이미지>
+<SMSS.exe 프로세스의 라이브러리 미참조 이미지>
 Native Library는 다른 라이브러리들과 연관성이 없음.
-
-
 
 ## 결론
 여기까지 하이레벨에서 로우레벨 까지의 과정을 간략하게나마 살펴 보았습니다.<br>
