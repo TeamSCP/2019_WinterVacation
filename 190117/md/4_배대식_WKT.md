@@ -65,6 +65,16 @@ KeXXXX 함수<br>
 <SMSS.exe 프로세스의 라이브러리 미참조 이미지>
 Native Library는 다른 라이브러리들과 연관성이 없음.
 
+## API부터 실제 소스코드까지
+
+kernel32.dll -> kernelbase.dll -> ntdll.dll ->  | system call -> ssdt -> ntoskrnl.exe -> ntcreateprocess<br>
+CreateProcessA/W -> CreateProcessInternal ->    | NtCreateProcess(0x??) -> NtCreateProcess<br>
+
+이 쯤되면 결론이 나옵니다.<br>
+왜 보안 모듈들이나 나쁜 짓들을 막는 방법들은 커널에 집중되어 있는지를<br>
+왜냐하면 유저모드에서 사용되는 API들은 그 기술을 구현하기 위한 실제 소스코드가 없고 단순히 전달만 해주는 형식입니다.<br>
+바꾸어 말하자면 유저모드 API들을 지지고 볶아도 최종적인 커널모드 영역의 API를 건드린다면 게임오버이기 때문에 그렇습니다.<br>
+
+
 ## 결론
 여기까지 하이레벨에서 로우레벨 까지의 과정을 간략하게나마 살펴 보았습니다.<br>
-다음은 드라이버를 만드는 방법과 게임에서 어떻게 우회되어 사용되는지에 대해 이야기 해보도록 하겠습니다.<br>
