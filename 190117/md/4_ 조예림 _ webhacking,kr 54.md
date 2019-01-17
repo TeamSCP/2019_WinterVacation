@@ -1,10 +1,10 @@
 # 19.01.17 webhacking,kr 54
 
 바로 문제를 보면
+![1](https://user-images.githubusercontent.com/40850499/51298331-7c3f7d00-1a67-11e9-9d21-78999918ee09.PNG)
+![1-1](https://user-images.githubusercontent.com/40850499/51298332-7e094080-1a67-11e9-9ac3-f2f1305837fc.PNG)
+![1-2](https://user-images.githubusercontent.com/40850499/51298333-7f3a6d80-1a67-11e9-93b8-da9431d80022.PNG)
 
- ![1-1](C:\Users\Yellme\Desktop\1-1.PNG)![1](C:\Users\Yellme\Desktop\1.PNG)
-
-![1-2](C:\Users\Yellme\Desktop\1-2.PNG)
 
 이렇게 Password is 뒤에 값이 바뀌는 것을 알 수 가 있습니다.
 
@@ -30,7 +30,8 @@
 
 소스를 봅시다.
 
-![1547702344059](C:\Users\Yellme\AppData\Local\Temp\1547702344059.png)
+![2](https://user-images.githubusercontent.com/40850499/51298345-937e6a80-1a67-11e9-9d9a-b18f3414d725.PNG)
+
 
 저 많은 소스들 중에 가장 중요시하게 볼 부분은 다음과 같습니다.
 
@@ -80,8 +81,7 @@ aview.innerHTML=x.responseText;   -------> aview.innerHTML+=x.responseText;
 구문을 이렇게 수정을 해주고,
 
 if(x.responseText=="") aview.innerHTML="?"; 구문은 x.responseText값이 없으면 ? 값을 보여주니까 이 구문을 삭제 시키고 콘솔 창으로 돌리게 되면
-
- ![1547704050749](C:\Users\Yellme\AppData\Local\Temp\1547704050749.png)
+![3](https://user-images.githubusercontent.com/40850499/51298360-a1cc8680-1a67-11e9-9415-d24379a245dc.PNG)
 
 패스워드 값이 뜨게 된다.
 
@@ -92,8 +92,8 @@ if(x.responseText=="") aview.innerHTML="?"; 구문은 x.responseText값이 없�
 ## 3. 개발자 도구 Network 사용해서 풀기
 
 패스워드가 뜨는 순간 개발자 도구로 들어서 network를 확인해보면,
+![4](https://user-images.githubusercontent.com/40850499/51298382-ac871b80-1a67-11e9-8044-62de26c5e8ee.PNG)
 
-![1547704141761](C:\Users\Yellme\AppData\Local\Temp\1547704141761.png)
 
 이렇게 ?m=0 , ?m=1 등등 생기게 된다. 
 
