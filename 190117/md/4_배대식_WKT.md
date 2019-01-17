@@ -16,7 +16,7 @@
 - PC방에 소켓 프록시를 숨겨 놓기 위해는 커널을 잘 알아야 한다.
 
 커널이 무엇이고 왜 나쁜 짓을 방어하는 기술들은 커널에 치중되어 있을까요?<br>
-또한 앞으로 연재 할 컨텐츠를 이해 혹은 학습 하기 위해서 필요한 지식들에 대해서 이야기 해 보도록 하겠습니다.<br>
+또한 앞으로 연재 할 내용을 이해 혹은 학습 하기 위해서 필요한 지식들에 대해서 이야기 해 보도록 하겠습니다.<br>
 
 ## DLL
 Dynamic Linked Library, 동적으로 연결되는 라이브러리라는 의미입니다.<br>
@@ -53,9 +53,11 @@ Application Programming Interface 줄여서 API라고 불리웁니다.<br>
 \- 익스큐티브<br>
 ExXXXX 함수<br>
 메모리 관리, 프로세스 및 스레드 관리, I/O, IPC<br>
+익스큐티브 객체들은 상위 계층 PROCESS, THREAD, JOB<br>
 \- 커널<br>
 KeXXXX 함수<br>
-스레드 스케줄링, 인터럽트 및 예외 디스패칭, 멀티 프로세스 동기화 저수준 OS
+스레드 스케줄링, 인터럽트 및 예외 디스패칭, 멀티 프로세스 동기화 저수준 OS<br>
+커널 객체들은 하위 계층 PROCESS를 이루기 위해선 EPROCESS, KPROCESS struct를 제공<br>
   
 
 ## What's mean Native?
