@@ -12,7 +12,7 @@
 >
 >---
 
-### :pushpin: First Topic 
+### :pushpin: Topic 
 
 >Tab Bar Controller
 >
@@ -26,7 +26,7 @@
 >
 >---
 
-###:question: First Problem
+### :question: Problem
 
 > ![image](https://user-images.githubusercontent.com/46397818/52481851-12903a00-2bf3-11e9-929c-ef62f99b9be7.png)
 >
